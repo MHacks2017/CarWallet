@@ -17,10 +17,10 @@ contract WalletInterface {
     event Deposit   (address from,
                      uint256 amnt);
                      
-	event Withdraw  (address _sender,
-	                 uint    amnt);
+    event Withdraw  (address _sender,
+	             uint    amnt);
     
-	function deposit(address from, uint256 amnt, address to);
+    function deposit(address from, uint256 amnt, address to);
 	
-	function withdraw(address from, uint amnt, address to);
-	}
+    function withdraw(address from, uint amnt, address to);
+}
