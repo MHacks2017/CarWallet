@@ -24,4 +24,3 @@ contract WalletInterface {
 	
 	function withdraw(address from, uint amnt, address to);
 	}
-
